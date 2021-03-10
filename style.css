@@ -1,0 +1,34 @@
+body{
+    color: yellowgreen;
+}
+
+.header{
+    background-color: rgba(red, green, blue, alpha);
+}
+
+.content{
+    background-color: aquamarine;
+}
+
+.footer{
+    background-color: red;
+}
+@media { min-width: 300px;}{
+    .container1{
+        grid-template-columns: auto 1fr;
+        grid-template-rows: auto 1fr auto;
+        grid-template-areas:
+        "advert header"
+        "advert content"
+        "advert footer"
+    }
+} 
+
+@media { min-width: 400px;}{
+    .container1{
+        grid-template-areas:
+        "advert header"
+        "advert content"
+        "advert footer"
+    }
+}
