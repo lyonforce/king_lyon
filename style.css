@@ -24,7 +24,7 @@ body{
     }
 } 
 
-@media { min-width: 400px;}{
+@media (min-width: 400px;){
     .container1{
         grid-template-areas:
         "advert header"
@@ -32,3 +32,6 @@ body{
         "advert footer"
     }
 }
+
+hhghhjjghucre6ue5wexrukyhsdtjykuyertyjry4yhndf
+yfuyutu
